@@ -1,19 +1,16 @@
 'use strict';
 
-console.log('React is running...');
+console.log('React is running...'); // JSX
 
-// JSX
-var template = <p>This is an App build with React!</p>;
-
+var template = React.createElement("h1", null, "Hello World @Brazil!");
 /*// Create an element with native js calls
 var template = React.createElement(
     'p',
     { id: 'someId' },
     'This is an App build with React!'
 )*/
-
 // Get element by id
-var appRoot = document.getElementById('app');
 
-// Render element
+var appRoot = document.getElementById('app'); // Render element
+
 ReactDOM.render(template, appRoot);

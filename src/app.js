@@ -3,7 +3,7 @@
 console.log('React is running...');
 
 // JSX
-var template = <p>This is an App build with React!</p>;
+var template = <h1>Hello World @Brazil!</h1>;
 
 /*// Create an element with native js calls
 var template = React.createElement(
