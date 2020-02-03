@@ -3,19 +3,17 @@
 console.log('React is running...');
 
 // JSX Sintax
-var template = (
+var templateTwo = (
+
     <div>
-        <h1>Hello World @Brazil!</h1>
-        <p>There are new info today!</p>
-        <ol>
-            <li>Item One</li>
-            <li>Item Two</li>
-        </ol>
+        <h1>Pedro Harmendani</h1>
+        <p>Age: 24</p>
+        <p>Location: Minas Gerais, Brazil.</p>
     </div>
-);
+)
 
 // Get element by id
 var appRoot = document.getElementById('app');
 
 // Render element
-ReactDOM.render(template, appRoot);
+ReactDOM.render(templateTwo, appRoot);
